@@ -1,9 +1,7 @@
-﻿using System;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace UI
+namespace CustomUIComponents
 {
 	[RequireComponent(typeof(TMPro.TextMeshProUGUI))]
 	public class GetName : MonoBehaviour

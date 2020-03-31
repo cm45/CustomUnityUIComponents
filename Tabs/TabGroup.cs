@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace UI
+namespace CustomUIComponents.Tabs
 {
 	public class TabGroup : MonoBehaviour
 	{
