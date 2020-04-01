@@ -36,7 +36,7 @@ namespace CustomUIComponents.Tabs
 
 		private void Start()
 		{
-			if (selectedTab)
+			if (selectedTab != null)
 				SelectTab(selectedTab);
 
 			ResetTabs();

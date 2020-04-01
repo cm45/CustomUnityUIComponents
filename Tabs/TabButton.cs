@@ -25,7 +25,7 @@ namespace CustomUIComponents.Tabs
 				tabGroup = GetComponentInParent<TabGroup>();
 		}
 
-		private void Start()
+		private void Awake()
 		{
 			background = GetComponent<Image>();
 			tabGroup.Subscribe(this);
